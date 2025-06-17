@@ -53,4 +53,21 @@ my-simple-site/
 ├── images/
 │   └── logo.png
 └── README.md
+|__ .gitignore 
 ```
+
+| Fichier         | Rôle / Description                                                |
+| --------------- | ----------------------------------------------------------------- |
+| `robots.txt`    | Indique aux moteurs de recherche quelles pages indexer ou ignorer |
+| `favicon.ico`   | Icône affichée dans l’onglet du navigateur                        |
+| `sitemap.xml`   | Plan du site pour aider les moteurs de recherche                  |
+| `README.md`     | Documentation du projet                                           |
+| `.gitignore`    | Fichiers/dossiers à exclure du suivi Git                          |
+| `.env`          | Variables d’environnement (souvent dans projets backend/frontend) |
+| `package.json`  | Liste les dépendances et scripts (projets Node.js)                |
+| `LICENSE`       | Licence du projet (ex: MIT, GPL)                                  |
+| `CNAME`         | Pour les projets GitHub Pages, indique le domaine personnalisé    |
+| `humans.txt`    | Infos sur les créateurs du site (moins courant)                   |
+| `Dockerfile`    | Instructions pour créer une image Docker                          |
+| `.editorconfig` | Standardise le formatage du code entre éditeurs                   |
+
